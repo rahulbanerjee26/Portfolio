@@ -31,8 +31,10 @@ hr{
 }
 
 .main_image img{
-  width:90%;
+  width:70%;
   padding: 5%;
+  display: block;
+  margin: 0 auto;
 }
 
 .aboutme h2{
@@ -120,6 +122,15 @@ hr{
   font-size: 200%;
 }
 
+footer{
+  margin-top: 80px;
+}
+
+footer p{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 @media screen and (max-width:600px){
   header{
     max-width: 100%;
@@ -145,14 +156,17 @@ hr{
 
   .project1 {
     width: 100%;
+    margin-bottom: 60px;
   }
 
   .project2 {
     width: 100%;
+    margin-bottom: 100px;
   }
 
   .project3{
     width: 100%;
+    margin-bottom: 60px;
   }
 
 }
